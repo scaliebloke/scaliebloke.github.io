@@ -167,6 +167,7 @@ function hideNAVFUNCTION(){
         gsap.to(".navlink2", { pointerEvents: "none", delay:0.1, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink3", { pointerEvents: "none", delay:0.2, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink4", { pointerEvents: "none", delay:0.3, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to(".navlink5", { pointerEvents: "none", delay:0.3, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
 
         $(".nav-iconA").addClass("iconHide");
 
@@ -193,6 +194,7 @@ function hideNAVFUNCTION(){
         gsap.to(".navlink2", { pointerEvents: "all", delay:0.1, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink3", { pointerEvents: "all", delay:0.2, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink4", { pointerEvents: "all", delay:0.3, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to(".navlink5", { pointerEvents: "all", delay:0.3, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
 
         $(".nav-iconA").removeClass("iconHide");
 
@@ -243,6 +245,10 @@ $('.navlink4_o').click(function(){
     CALLNAV();
 });	
 
+$('.navlink5_o').click(function(){
+    navItems = 5;
+    CALLNAV();
+});	
 
 $('.rotate-nav').click(function(){
     rotNAV();
@@ -323,6 +329,7 @@ function navSHOW() { //this is for whenever the nav is moved from top to side
     gsap.to(".navlink2", { delay:0.2, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
     gsap.to(".navlink3", { delay:0.3, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
     gsap.to(".navlink4", { delay:0.4, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
+	gsap.to(".navlink5", { delay:0.4, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
 }
 function navHIDE() {
 
@@ -332,6 +339,7 @@ function navHIDE() {
     gsap.to(".navlink2", { delay:0.3, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
     gsap.to(".navlink3", { delay:0.2, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
     gsap.to(".navlink4", { delay:0.1, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
+	gsap.to(".navlink5", { delay:0.1, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
 }
 
 
