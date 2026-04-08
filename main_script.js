@@ -66,25 +66,35 @@ $(document).ready(function() {
     }
     hideNAVFUNCTION();
     mobileTEST();
-	if (hashIntro == "journey") {
+	if (hashIntro == "#journey") {
 		navItems = 1;
 		CALLNAV();
 	}
-	else if (hashIntro == "about-me") {
-		console.log(hashIntro +"YES");
+	else if (hashIntro == "#about-me") {
 		navItems = 2;
 		CALLNAV();
-		
 	}
-	else if (hashIntro == "press-sheet") {
+	else if (hashIntro == "#about") {
+		navItems = 2;
+		CALLNAV();
+	}
+	else if (hashIntro == "#press-sheet") {
 		navItems = 3;
 		CALLNAV();
 	}
-	else if (hashIntro == "character-sheet") {
+	else if (hashIntro == "#press") {
+		navItems = 3;
+		CALLNAV();
+	}
+	else if (hashIntro == "#character-sheet") {
 		navItems = 4;
 		CALLNAV();
 	}
-	else if (hashIntro == "portfolio") {
+	else if (hashIntro == "#character") {
+		navItems = 4;
+		CALLNAV();
+	}
+	else if (hashIntro == "#portfolio") {
 		navItems = 5;
 		CALLNAV();
 	}
