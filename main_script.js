@@ -1124,3 +1124,29 @@ function firstloadAnimations() {
     gsap.from(".j-fore-ff", { delay:0.5, opacity: 0, duration: 1.5,  ease: "power4.inOut",});		
 
 }
+
+$(window).load(function() {
+	if (window.location.hash == "journey") {
+		navItems = 1;
+		CALLNAV();
+	}
+	if (window.location.hash == "about-me") {
+		navItems = 2;
+		CALLNAV();
+	}
+	if (window.location.hash == "press-sheet") {
+		navItems = 3;
+		CALLNAV();
+	}
+	if (window.location.hash == "character-sheet") {
+		navItems = 4;
+		CALLNAV();
+	}
+	if (window.location.hash == "portfolio") {
+		navItems = 5;
+		CALLNAV();
+	}
+	
+	
+	});
+
