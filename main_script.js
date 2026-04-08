@@ -361,7 +361,7 @@ function CALLNAV(){
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#portfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 2) {
         if (currentnav != 2) {
@@ -376,7 +376,7 @@ function CALLNAV(){
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#portfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 3) {
         if (currentnav != 3) {
@@ -395,7 +395,7 @@ function CALLNAV(){
         gsap.to("#about-me", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#portfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 4) {
         if (currentnav != 4) {
@@ -414,15 +414,15 @@ function CALLNAV(){
         gsap.to("#about-me ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
 		gsap.to("#about-me ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#portfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
 	else if (navItems == 5) {
         if (currentnav != 5) {
-            gsap.to("#porfolio ", { pointerEvents: "all", delay:0.1, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
+            gsap.to("#portfolio ", { pointerEvents: "all", delay:0.1, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
             currentnav = 5;
         }     
         else {
-            gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+            gsap.to("#portfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
             currentnav = 1;
         }
         
@@ -793,7 +793,31 @@ let image_screen_array = [
     { id:'#c1_img_4', id2:'c1_img_4', main_url: '/images/ref-images/heathcliff-scalie-bloke.webp', dis_url: '/images/ref-images/heathcliff-scalie-bloke.webp', artist_name:'Heathcliff', artist_url:'https://www.furaffinity.net/user/kruzoer/' },
     { id:'#c1_img_5', id2:'c1_img_5', main_url: '/images/ref-images/imdabes-scalie-bloke-full.png', dis_url: '/images/ref-images/imdabes-scalie-bloke.webp', artist_name:'DoodleCatCreations  ', artist_url:'https://www.instagram.com/doodlecatcreations/'},
     { id:'#c1_img_6', id2:'c1_img_6', main_url: '/images/ref-images/arinaca-scalie-bloke-full.png', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Arinaca', artist_url:'https://twitter.com/Arinaca11'},
-	{ id:'#port_img_1', id2:'port_img_1', main_url: '/images/ref-images/arinaca-scalie-bloke-full.png', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'}
+	{ id:'#port_img_1', id2:'port_img_1', main_url: '/portfolio/Posters/Class-of-2022---Main-Poster.jpg', dis_url: '/portfolio/Posters/preview/Class-of-2022---Main-Poster.jpg', artist_name:'Class Of 2022', artist_url:'https://floofdoof.com/'},
+	{ id:'#port_img_2', id2:'port_img_2', main_url: '/portfolio/Posters/DJ-Poster---Inv.jpg', dis_url: '/portfolio/Posters/preview/DJ-Poster---Inv.jpg', artist_name:'DJ Poster Boy', artist_url:''},
+	{ id:'#port_img_3', id2:'port_img_3', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_4', id2:'port_img_4', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_5', id2:'port_img_5', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_6', id2:'port_img_6', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_7', id2:'port_img_7', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_8', id2:'port_img_8', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_9', id2:'port_img_9', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_10', id2:'port_img_10', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_11', id2:'port_img_11', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_12', id2:'port_img_12', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_13', id2:'port_img_13', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_14', id2:'port_img_14', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_15', id2:'port_img_15', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_16', id2:'port_img_16', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_17', id2:'port_img_17', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_18', id2:'port_img_18', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_19', id2:'port_img_19', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_20', id2:'port_img_20', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_21', id2:'port_img_21', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_22', id2:'port_img_22', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_23', id2:'port_img_23', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'},
+	{ id:'#port_img_24', id2:'port_img_24', main_url: '/portfolio/Posters/', dis_url: '/images/ref-images/arinaca-scalie-bloke.webp', artist_name:'Port Image 1', artist_url:'https://twitter.com/Arinaca11'}
+	
 ];
 
 var image_screen_array_length = image_screen_array.length;
