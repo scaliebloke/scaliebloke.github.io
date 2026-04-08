@@ -434,13 +434,13 @@ a {
 
 #character-sheet {
 	background:url("/images/about-bg.jpg");
-	
+	background-size: cover;
 	z-index: 52;
 	
 }
 #portfolio {
 	background:url("/images/about-bg.jpg");
-	
+	background-size: cover;
 	z-index: 53;
 	
 }
