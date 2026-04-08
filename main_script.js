@@ -45,8 +45,31 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 }
 
 
+
 $(document).ready(function() {
-    if ($(window).width() < 1530) {
+    if (window.location.hash == "journey") {
+		navItems = 1;
+		CALLNAV();
+	}
+	if (window.location.hash == "about-me") {
+		navItems = 2;
+		CALLNAV();
+	}
+	if (window.location.hash == "press-sheet") {
+		navItems = 3;
+		CALLNAV();
+	}
+	if (window.location.hash == "character-sheet") {
+		navItems = 4;
+		CALLNAV();
+	}
+	if (window.location.hash == "portfolio") {
+		navItems = 5;
+		CALLNAV();
+	}
+	
+	
+	if ($(window).width() < 1530) {
         mobileSIZE = 1;
         diffSize = 1;
     }
@@ -1125,28 +1148,4 @@ function firstloadAnimations() {
 
 }
 
-$(window).load(function() {
-	if (window.location.hash == "journey") {
-		navItems = 1;
-		CALLNAV();
-	}
-	if (window.location.hash == "about-me") {
-		navItems = 2;
-		CALLNAV();
-	}
-	if (window.location.hash == "press-sheet") {
-		navItems = 3;
-		CALLNAV();
-	}
-	if (window.location.hash == "character-sheet") {
-		navItems = 4;
-		CALLNAV();
-	}
-	if (window.location.hash == "portfolio") {
-		navItems = 5;
-		CALLNAV();
-	}
-	
-	
-	});
 
