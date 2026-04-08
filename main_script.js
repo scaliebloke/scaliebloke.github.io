@@ -357,7 +357,7 @@ function CALLNAV(){
         gsap.to("#journey .home-button", { pointerEvents: "all", });
         currentnav = 1;
        
-        gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+        gsap.to("#about-me ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
@@ -365,11 +365,11 @@ function CALLNAV(){
     }
     else if (navItems == 2) {
         if (currentnav != 2) {
-            gsap.to("#ABOUTMAIN ", { pointerEvents: "all", delay:0.1, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
+            gsap.to("#about-me ", { pointerEvents: "all", delay:0.1, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
             currentnav = 2;
         }     
         else {
-            gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+            gsap.to("#about-me ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
             currentnav = 1;
         }
 
@@ -392,7 +392,7 @@ function CALLNAV(){
             currentnav = 1;
         }
 
-        gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+        gsap.to("#about-me", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
 		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
@@ -411,9 +411,9 @@ function CALLNAV(){
             currentnav = 1;
         }
         
-        gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+        gsap.to("#about-me ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#about-me ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
 		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
 	else if (navItems == 5) {
@@ -426,7 +426,7 @@ function CALLNAV(){
             currentnav = 1;
         }
         
-        gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+        gsap.to("#about-me ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
 		gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
