@@ -361,7 +361,7 @@ function CALLNAV(){
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 2) {
         if (currentnav != 2) {
@@ -376,7 +376,7 @@ function CALLNAV(){
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 3) {
         if (currentnav != 3) {
@@ -395,7 +395,7 @@ function CALLNAV(){
         gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 4) {
         if (currentnav != 4) {
@@ -414,7 +414,7 @@ function CALLNAV(){
         gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
 		gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
-		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
     }
 	else if (navItems == 5) {
         if (currentnav != 5) {
