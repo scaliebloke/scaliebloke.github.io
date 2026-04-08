@@ -167,7 +167,7 @@ function hideNAVFUNCTION(){
         gsap.to(".navlink2", { pointerEvents: "none", delay:0.1, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink3", { pointerEvents: "none", delay:0.2, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink4", { pointerEvents: "none", delay:0.3, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
-		gsap.to(".navlink5", { pointerEvents: "none", delay:0.3, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to(".navlink5", { pointerEvents: "none", delay:0.4, opacity: 0, y: -500, duration: 0.5,  ease: "power4.inOut", });
 
         $(".nav-iconA").addClass("iconHide");
 
@@ -194,7 +194,7 @@ function hideNAVFUNCTION(){
         gsap.to(".navlink2", { pointerEvents: "all", delay:0.1, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink3", { pointerEvents: "all", delay:0.2, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".navlink4", { pointerEvents: "all", delay:0.3, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
-		gsap.to(".navlink5", { pointerEvents: "all", delay:0.3, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to(".navlink5", { pointerEvents: "all", delay:0.4, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
 
         $(".nav-iconA").removeClass("iconHide");
 
@@ -329,16 +329,16 @@ function navSHOW() { //this is for whenever the nav is moved from top to side
     gsap.to(".navlink2", { delay:0.2, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
     gsap.to(".navlink3", { delay:0.3, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
     gsap.to(".navlink4", { delay:0.4, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
-	gsap.to(".navlink5", { delay:0.4, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
+	gsap.to(".navlink5", { delay:0.5, opacity: 1, x: 0, duration: 1,  ease: "power4.inOut", });
 }
 function navHIDE() {
 
     gsap.to(".nav-icon-container", { delay:0.1, opacity: 0, x: -1100, duration: 1,  ease: "power4.inOut", });
     gsap.to(".nav-icon-hanburger-container", { delay:0.3, opacity: 0, x: -1100, duration: 1,  ease: "power4.inOut", });
-    gsap.to(".navlink1", { delay:0.4, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
-    gsap.to(".navlink2", { delay:0.3, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
-    gsap.to(".navlink3", { delay:0.2, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
-    gsap.to(".navlink4", { delay:0.1, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
+    gsap.to(".navlink1", { delay:0.5, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
+    gsap.to(".navlink2", { delay:0.4, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
+    gsap.to(".navlink3", { delay:0.3, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
+    gsap.to(".navlink4", { delay:0.2, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
 	gsap.to(".navlink5", { delay:0.1, opacity: 0, x: 1100, duration: 1,  ease: "power4.inOut", });
 }
 
@@ -361,6 +361,7 @@ function CALLNAV(){
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 2) {
         if (currentnav != 2) {
@@ -375,6 +376,7 @@ function CALLNAV(){
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 3) {
         if (currentnav != 3) {
@@ -393,6 +395,7 @@ function CALLNAV(){
         gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
         gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
     }
     else if (navItems == 4) {
         if (currentnav != 4) {
@@ -410,6 +413,24 @@ function CALLNAV(){
         
         gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
         gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+    }
+	else if (navItems == 5) {
+        if (currentnav != 5) {
+            gsap.to("#porfolio ", { pointerEvents: "all", delay:0.1, opacity: 1, y: 0, duration: 0.5,  ease: "power4.inOut", });
+            currentnav = 5;
+        }     
+        else {
+            gsap.to("#porfolio ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+            currentnav = 1;
+        }
+        
+        gsap.to("#ABOUTMAIN ", { pointerEvents: "none", delay:0.1, opacity: 0, y: 0, duration: 0.5,  ease: "power4.inOut", });
+        gsap.to("#press-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		gsap.to("#character-sheet ", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+        gsap.to(".character-pop-up", { pointerEvents: "none", delay:0.1, opacity: 0, y: '100vh', duration: 0.5,  ease: "power4.inOut", });
+		
     }
 
     if (navItems != 1) {
