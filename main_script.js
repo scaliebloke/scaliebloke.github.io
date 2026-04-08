@@ -44,10 +44,11 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
      loadedOnMobile = 0;
 }
 
-
+var hashIntro = $(location).attr('hash');
+console.log(hashIntro +"test");
 
 $(document).ready(function() {
-	var hashIntro = $(location).attr('hash');
+	
     
 	
 	
@@ -65,13 +66,15 @@ $(document).ready(function() {
     }
     hideNAVFUNCTION();
     mobileTEST();
-	if ( hashIntro == "journey") {
+	if (hashIntro == "journey") {
 		navItems = 1;
 		CALLNAV();
 	}
 	else if (hashIntro == "about-me") {
+		console.log(hashIntro +"YES");
 		navItems = 2;
 		CALLNAV();
+		
 	}
 	else if (hashIntro == "press-sheet") {
 		navItems = 3;
