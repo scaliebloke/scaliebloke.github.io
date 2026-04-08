@@ -47,23 +47,24 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 
 $(document).ready(function() {
-    if (window.location.hash == "journey") {
+	var hashIntro = $(location).attr('hash');
+    if ( hashIntro == "journey") {
 		navItems = 1;
 		CALLNAV();
 	}
-	if (window.location.hash == "about-me") {
+	else if (hashIntro == "about-me") {
 		navItems = 2;
 		CALLNAV();
 	}
-	if (window.location.hash == "press-sheet") {
+	else if (hashIntro == "press-sheet") {
 		navItems = 3;
 		CALLNAV();
 	}
-	if (window.location.hash == "character-sheet") {
+	else if (hashIntro == "character-sheet") {
 		navItems = 4;
 		CALLNAV();
 	}
-	if (window.location.hash == "portfolio") {
+	else if (hashIntro == "portfolio") {
 		navItems = 5;
 		CALLNAV();
 	}
