@@ -368,7 +368,7 @@ function navHIDE() {
 }
 
 
-CALLNAV();
+
 function DontTouchMeFunction(){
     $('.stoptouchingme').css('pointer-events', 'none');
 }
