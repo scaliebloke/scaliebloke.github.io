@@ -48,7 +48,24 @@ if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(naviga
 
 $(document).ready(function() {
 	var hashIntro = $(location).attr('hash');
-    if ( hashIntro == "journey") {
+    
+	
+	
+	if ($(window).width() < 1530) {
+        mobileSIZE = 1;
+        diffSize = 1;
+    }
+    else if ($(window).width() < 770 || $(window).height() < 590) {
+        mobileSIZE = 1;
+        diffSize = 2; 
+    }
+    else {
+        mobileSIZE = 0;
+        diffSize = 0;   
+    }
+    hideNAVFUNCTION();
+    mobileTEST();
+	if ( hashIntro == "journey") {
 		navItems = 1;
 		CALLNAV();
 	}
@@ -68,22 +85,6 @@ $(document).ready(function() {
 		navItems = 5;
 		CALLNAV();
 	}
-	
-	
-	if ($(window).width() < 1530) {
-        mobileSIZE = 1;
-        diffSize = 1;
-    }
-    else if ($(window).width() < 770 || $(window).height() < 590) {
-        mobileSIZE = 1;
-        diffSize = 2; 
-    }
-    else {
-        mobileSIZE = 0;
-        diffSize = 0;   
-    }
-    hideNAVFUNCTION();
-    mobileTEST();
 });
 
 var resizetimer = 0;
