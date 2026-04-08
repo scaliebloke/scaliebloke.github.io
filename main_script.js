@@ -810,7 +810,7 @@ let image_screen_array = [
 	{ id:'#port_img_15', id2:'port_img_15', main_url: '/portfolio/Websites/roar-house-records-website-2.jpg', dis_url: '/portfolio/Websites/preview/roar-house-records-website-2.jpg', artist_name:'Roar House Records', artist_url:'nolink'},
 	{ id:'#port_img_16', id2:'port_img_16', main_url: '/portfolio/Websites/scaliebloke-website.jpg', dis_url: '/portfolio/Websites/preview/scaliebloke-website.jpg', artist_name:'Roar House Records', artist_url:'nolink'},
 	{ id:'#port_img_17', id2:'port_img_17', main_url: '/portfolio/Websites/site-social-image.jpg', dis_url: '/portfolio/Websites/preview/site-social-image.jpg', artist_name:'Macro Insurance', artist_url:'https://macroinsurance.com'},
-	{ id:'#port_img_18', id2:'port_img_18', main_url: '/portfolio/Websites/oldwebsite2020.jpg', dis_url: '/portfolio/Websites/preview/oldwebsite2020.jpg', artist_name:'2020 Website', artist_url:'nolink'},
+	{ id:'#port_img_18', id2:'port_img_18', main_url: '/portfolio/Websites/oldwebsite2020.jpg', dis_url: '/portfolio/Websites/oldwebsite2020.jpg', artist_name:'2020 Website', artist_url:'nolink'},
 	{ id:'#port_img_19', id2:'port_img_19', main_url: '/portfolio/Other/Banner-2023-Youtube_00000-smaller.jpg', dis_url: '/portfolio/Other/preview/Banner-2023-Youtube_00000-smaller.jpg', artist_name:'Banner Idea 2023', artist_url:'nolink'},
 	{ id:'#port_img_20', id2:'port_img_20', main_url: '/portfolio/Other/Furdu-Product-Thing2.jpg', dis_url: '/portfolio/Other/preview/Furdu-Product-Thing2.jpg', artist_name:'Furdu Product Thing', artist_url:'nolink'},
 	{ id:'#port_img_21', id2:'port_img_21', main_url: '/portfolio/Other/FurDu-Rego-Standards.jpg', dis_url: '/portfolio/Other/preview/FurDu-Rego-Standards.jpg', artist_name:'Furdu Rego 2022', artist_url:'nolink'},
