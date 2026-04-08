@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui, viewport-fit=cover">
+	<meta name="google" content="notranslate">
+	<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+	<link href="https://scaliebloke.com/" rel="canonical">
+	<!-- base href="https://scaliebloke.com/" -->
+	<title>Scalie Bloke's Portfolio</title>
+	<meta name="description" content="Scalie Bloke's Portfolio">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@scaliebloke">
+	<meta name="twitter:title" content="Scalie Bloke | Interent Creature">
+	<meta name="twitter:description" content="Scalie Bloke's Portfolio">
+	<meta name="twitter:image" content="https://scaliebloke.com/images/meta/scaliebloke.webp">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="https://scaliebloke.com/">
+	<meta property="og:site_name" content="Scalie Bloke">
+	<meta property="og:title" content="Scalie Bloke | Interent Creature">
+	<meta property="og:description" content="Scalie Bloke's Portfolio">
+	<meta property="og:image" content="https://scaliebloke.com/images/meta/scaliebloke.webp">
+	<meta name="apple-mobile-web-app-title" content="Scalie Bloke">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">	
+	<link rel="icon" type="image/gif" href="https://scaliebloke.com/images/meta/favicon.gif">
+	
+	<link rel="stylesheet" type="text/css" href="/styles/styles.css">
+
+
+	<style>
+
+	</style>
+	
+</head>
+<body>
+	<!-- HIDDEN FOR SEO -->
+	<noscript>
+		<h1>Scalie Bloke's Portfolio</h1>
+		<p>Most things I have done under this name that I am happy to share with you</p>
+	</noscript>
+	<!-- NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV NAV -->
+	<div class="stoptouchingme2"></div>
+	hello there this is a test
+		
+	<!-- SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS SCRIPTS -->
+	<script src="/scripts/jquery.min.js"></script>
+	<script type="text/javascript" src="/scripts/tilt.jquery.min.js"></script>
+	<script type="text/javascript" src="/scripts/gsap.min.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.ripples.js"></script>
+	
+	
+	<script type="text/javascript" src="/scripts/three.js"></script>
+	
+	<!--<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.157.0/three.min.js"></script>-->
+	<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tilt.js/1.2.1/tilt.jquery.min.js"></script>
+	http://gijsroge.github.io/tilt.js/
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/gsap@3.12/dist/gsap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.157.0/three.js"></script>
+
+	https://github.com/robin-dela/hover-effect/tree/master -->
+	<script type="text/javascript" src="/scripts/hover-effect.umd.js"></script>
+
+	<script src=" https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js "></script>
+
+	<!-- LOADING SCREEN SCRIPT LOADING SCREEN SCRIPT LOADING SCREEN SCRIPT LOADING SCREEN SCRIPT LOADING SCREEN SCRIPT LOADING SCREEN SCRIPT -->
+	<script> 
+		var taptaptap = Cookies.get('taptaptap'); // => 'value'
+		var taptaptapCOUNT = 0;
+		var tappitytap = 10;
+		var tappitytap_final = 10 ;
+		var TapTimer;
+
+		var finallyloaded = 0;
+
+		var lagfix = Cookies.get('lagfix'); // => 'value'
+		
+		var lagfixVAR = 0;
+
+		if (lagfix == null) {
+			lagfix = 'oh boy';
+		}
+
+		if (lagfix == 'sendmetofixlag') {
+			lagfixVAR = 0;
+			
+		}
+		else {
+			lagfixVAR = 1;
+		}
+
+		$('.fixlagbutton-box').click(function(){
+			lagFIXMOMENT();
+			
+		});	
+
+		function lagFIXMOMENT() {
+			
+
+
+			if (lagfixVAR == 1) {
+			
+				$('#journey').tilt({
+					
+					maxTilt:        10,
+					perspective:    2000,   // Transform perspective, the lower the more extreme the tilt gets.
+					easing:         "cubic-bezier(.03,.98,.52,.99)",    // Easing on enter/exit.
+					scale:          0.8,      // 2 = 200%, 1.5 = 150%, etc..
+					speed:          10000,    // Speed of the enter/exit transition.
+					transition:     true,   // Set a transition on enter/exit.
+					disableAxis:    null,   // What axis should be disabled. Can be X or Y.
+					reset:          false,   // If the tilt effect has to be reset on exit.
+					glare:          false,  // Enables glare effect
+					maxGlare:       1       // From 0 - 1.
+				
+				});
+				
+				$('.j-fore-m-in').removeClass("paused");
+				$('.j-fore-m-in2').removeClass("paused");
+				$('.j-fore-m-in3').removeClass("paused");
+				$('.fixlagbutton').text("Fix Lag?");
+			}
+
+			else {
+				$('.j-fore-m-in').addClass("paused");
+				$('.j-fore-m-in2').addClass("paused");
+				$('.j-fore-m-in3').addClass("paused");
+				$('.fixlagbutton').text("Animate Site!");
+			}
+
+			if (lagfixVAR==1) {
+				lagfixVAR = 0;
+				lagfix = 'sendmetofixlag';
+			}
+			else {
+				lagfixVAR = 1;
+				lagfix = 'oh boy';
+			}
+			Cookies.set('lagfix', lagfix, { expires: 365 });
+			
+			
+
+		}
+		lagFIXMOMENT();
+
+		
+
+
+
+
+
+		if (taptaptap == null) {
+			taptaptapCOUNT = 0;
+			$('.loadCOUNTER').text('0 Times!');
+		}
+		else {
+			taptaptapCOUNT = parseInt(taptaptap);
+			$('.loadCOUNTER').text(''+taptaptap+' Times!');
+		}
+		
+		
+
+
+		$('.stoptouchingme2').css('pointer-events', 'all');
+		$(window).on('load', function () {
+			finallyloaded = 1;
+			gsap.to(".loadingscreen", { delay:0, opacity: 0, display: 'none', duration: 1,  ease: "power4.inOut",});
+			firstloadAnimations();
+			setTimeout(DontTouchMeFunction2, 2000);
+			setTimeout(hideTapGame, 2000);
+		}) ;
+		function DontTouchMeFunction2(){
+    		$('.stoptouchingme2').css('pointer-events', 'none');
+		}
+		
+		$(document).ready(function() {
+			
+			
+		});
+		
+		
+		$('.loadTAPME').click(function(){
+				tappitytap = tappitytap + 1;
+				tappitytap_final = tappitytap / 10;
+				NotTapped();
+				
+				
+				
+				$('.loadTAPME_in').css({'transform': 'scale('+tappitytap_final+')' });
+				$('.loadTAPME_in').addClass('loadTAPME_in_bigger');
+				$('.loadCOUNTER').addClass('loadTAPME_in_bigger');
+				
+				$('.loadTAPME_in').css({'background': 'rgba('+tappitytap+',0,0,'+tappitytap_final/10+')' });
+				
+				taptaptapCOUNT = taptaptapCOUNT + 1;
+
+
+				Cookies.set('taptaptap', taptaptapCOUNT, { expires: 365 });
+				$('.loadCOUNTER').text(''+taptaptapCOUNT+' Times!');
+
+		
+		});
+		
+		function NotTapped() {
+			clearInterval(TapTimer);
+			TapTimer = setInterval(function() { 
+				$('.loadTAPME_in').css({ 'transform': 'scale(1)' });
+				$('.loadTAPME_in').css({'background': 'rgba(0,0,0,0.2)' });
+				$('.loadTAPME_in').removeClass('loadTAPME_in_bigger');
+				$('.loadCOUNTER').removeClass('loadTAPME_in_bigger');
+				
+				tappitytap_final = 10;
+				tappitytap = 10;
+			}   , 300);
+		}
+		if (finallyloaded ==0)
+		{
+			setTimeout(showTapGame, 2000);
+			setTimeout(showTapGameLongTime, 20000);
+		}	
+
+		function showTapGame(){
+			$('.loadTAPME').css({'opacity': '1' });
+			$('.loadCOUNTER_text').css({'opacity': '1' });
+			$('.loadCOUNTER').css({'opacity': '1' });			
+		}
+		function hideTapGame(){
+			$('.loadTAPME').css({'opacity': '0' });
+			$('.loadCOUNTER_text').css({'opacity': '0' });
+			$('.loadCOUNTER').css({'opacity': '0' });		
+			$('.loadExtraText').css({'opacity': '0' });	
+		}
+
+		
+		function showTapGameLongTime() {
+			$('.loadExtraText').append("Wow! This site is taking a while to load!<br><br>Try Refreshing!<br><br>Or Don't...");
+		}
+		
+	</script>
+	
+	<script type="text/javascript" src="/main_script.js"></script>
+</body>
+</html>
