@@ -426,6 +426,9 @@ a {
 	left: -50%;
 	
 }
+#about-me {
+	pointerEvents: none;
+}
 #press-sheet {
 	background:black;
 	z-index: 51;
@@ -439,7 +442,7 @@ a {
 	
 }
 #portfolio {
-	background-image:url("/images/about-bg.jpg");
+	
 	
 	z-index: 53;
 	
