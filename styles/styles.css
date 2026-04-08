@@ -1402,7 +1402,7 @@ width:100%;
 }
 
 
-.col-c, .col-c-s  {
+.col-v, .col-c, .col-c-s  {
 	width:32%;
 	height:140px;
 	
@@ -1413,29 +1413,29 @@ width:100%;
 }
 
 @media (max-width:400px){
-	.col-c, .col-c-s, .col-r, .cs-img-in   {
+	.col-v, .col-c, .col-c-s, .col-r, .cs-img-in   {
 		height:110px;
 	}
 }
 
 @media (max-width:330px){
-	.col-c, .col-c-s, .col-r, .cs-img-in   {
+	.col-v, .col-c, .col-c-s, .col-r, .cs-img-in   {
 		height:95px;
 	}
 }
 
 
 
-.col-c-s {
+.col-v-s, .col-c-s {
 	width:15%;
 	height:120px;
 }
 
-.col-c:first-of-type, .col-c-s:first-of-type {
+.col-v:first-of-type, .col-v-s:first-of-type, .col-c:first-of-type, .col-c-s:first-of-type {
 	margin-left:0;
 }
 
-.col-c:last-of-type, .col-c-s:last-of-type{
+.col-v:last-of-type, .col-v-s:last-of-type, .col-c:last-of-type, .col-c-s:last-of-type{
 	margin-right:0;
 }
 
@@ -2018,4 +2018,16 @@ width:100%;
 
 .fixlagbutton {
 	
+}
+
+.classoff {
+	background-image: url('/portfolio/Motion_Graphics/classoff2022.jpg');
+}
+
+.floofy {
+	background-image: url('/portfolio/Motion_Graphics/floofynewyears2023.jpg');
+}
+
+.tracklist2 {
+	background-image: url('/portfolio/Motion_Graphics/furalitytracklist20232.jpg');
 }
